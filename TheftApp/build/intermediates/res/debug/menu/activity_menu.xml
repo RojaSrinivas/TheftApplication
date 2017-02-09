@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_settings"
+        android:icon="@android:drawable/ic_menu_preferences"
+        android:showAsAction="always"
+        android:title="@string/menu_settings"/>
+    <item
+        android:id="@+id/menu_messages"
+        android:icon="@android:drawable/ic_menu_directions"
+        android:showAsAction="ifRoom"
+        android:title="@string/menu_messages"/>
+<item
+        android:id="@+id/menu_gallery"
+        android:icon="@android:drawable/ic_menu_gallery"
+        android:showAsAction="ifRoom"
+        android:title="@string/menu_gallery"/>
+</menu><!-- From: file:/D:/Work/workspace/TheftApp/res/menu/activity_menu.xml -->
